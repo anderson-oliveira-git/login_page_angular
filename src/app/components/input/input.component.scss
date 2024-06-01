@@ -1,0 +1,35 @@
+@import "../../../styles/colors.scss";
+
+.input-wrapper {
+  color: $text-color;
+  text-align: start;
+
+  label {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .input-content {
+    display: flex;
+    width: 100%;
+
+    .input-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background-color: $primary-color;
+      color: white;
+      border-radius: 0px 8px 8px 0px;
+    }
+
+    input {
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      background-color: $background-inputs;
+      padding: 20px 0 20px 20px;
+      border-radius: 8px 0px 0px 8px;
+    }
+  }
+}
