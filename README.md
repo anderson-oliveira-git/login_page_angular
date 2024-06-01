@@ -1,4 +1,4 @@
-# LoginPage
+# Login page angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Figma used
+https://www.figma.com/design/7T1wkErczpMOBeqtpVjMSb/Login-Page-Design?node-id=6-1265&t=4bURJLDjEGpXkDoK-0
+
+![Captura de tela 2024-05-31 225041](https://github.com/anderson-oliveira-git/login_page_angular/assets/6682086/36fc90c5-4c99-43ca-a29f-0d32793d3083)
