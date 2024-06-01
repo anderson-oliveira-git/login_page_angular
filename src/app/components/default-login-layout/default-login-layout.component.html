@@ -1,0 +1,22 @@
+<main>
+  <section class="main-section">
+    <img src="/assets/images/svg/login_page_image.svg"/>
+  </section>
+
+  <section class="form-section">
+    <img src="/assets/images/svg/logo.svg"/>
+    <h2>{{ title }}</h2>
+
+    <ng-content></ng-content>
+
+    <div class="button-wrapper">
+      <button class="btn-primary" (click)="submit()">{{ primaryButton }}</button>
+      <div class="divider">
+        <div></div>
+        <span>or</span>
+        <div></div>
+      </div>
+      <button class="btn-secondary">{{ secondaryButton }}</button>
+    </div>
+  </section>
+</main>
