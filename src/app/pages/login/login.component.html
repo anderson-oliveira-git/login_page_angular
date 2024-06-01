@@ -1,0 +1,27 @@
+<app-default-login-layout
+  title="Login page with Angular"
+  primaryButton="Login now"
+  secondaryButton="Signup now"
+  (submit)="submit()"
+>
+  <form [formGroup]="loginForm">
+    <app-input
+      formControlName="email"
+      inputName="email"
+      type="email"
+      label="Email"
+      placeholder="example@email.com"
+      icon="mail"
+    ></app-input>
+
+    <app-input
+      formControlName="password"
+      inputName ="password"
+      type="password"
+      label="Password"
+      placeholder="password"
+      icon="lock"
+    ></app-input>
+    <span>Forgot password?</span>
+  </form>
+</app-default-login-layout>
